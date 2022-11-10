@@ -12,6 +12,7 @@ namespace Prime.UnitTests.Services
         public PrimeService_IsPrimeCould4()
         {
             _primeService = new PrimeService();
+
         }
 
         [Test]
@@ -24,6 +25,7 @@ namespace Prime.UnitTests.Services
             var result = _primeService.IsPrime(3);
 
             Assert.IsFalse(result, $"3 should not be prime");
+
         }
         
         [Test]
