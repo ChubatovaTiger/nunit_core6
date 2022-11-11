@@ -4,7 +4,7 @@ using NUnit.Framework;
 
 namespace Prime.UnitTests.Services
 {
-    public class CheckAssumeCase200-22{
+    public class CheckAssumeCase200_11{
         [Test]
         [Category("Simple")]
         public void TestAssumeFalse()
