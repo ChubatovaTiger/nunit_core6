@@ -10,125 +10,302 @@ namespace Prime.UnitTests.Services
         [Category("Simple")]
         public void TestAssumeFalse()
         {
+            Thread.Sleep(20);
             Assume.That(false);
         }
 
+//////////////////////////////////////////////////////////////// 1
+
         [Test]
-        [TestCase("chrome", "72", "Windows 10")]
-        [TestCase("internet explorer", "11.0", "Windows 10")]
-        [TestCase("Safari", "11.0", "macOS High Sierra")]
-        [TestCase("Microsoft Edge", "18.0", "Windows 10")]
-        public void DuckDuckGo_TestCase_Demo1(String browser, String version, String os)
+        public void DuckDuckGo_TestCase_Demo1_Chrome()
         {
             Thread.Sleep(20);
-            Assert.AreEqual(browser, version);
+	    Assert.AreEqual(1, 2);
+        }
+
+        [Test]
+        public void DuckDuckGo_TestCase_Demo1_IE()
+        {
+            Thread.Sleep(20);
+	    Assert.AreEqual(1, 1);
+        }
+
+        [Test]
+        public void DuckDuckGo_TestCase_Demo1_MSEdge()
+        {
+            Thread.Sleep(20);
+	    Assert.AreEqual(1, 1);
         }
         
         [Test]
-        [TestCase("chrome", "72", "Windows 10")]
-        [TestCase("internet explorer", "11.0", "Windows 10")]
-        [TestCase("Safari", "11.0", "macOS High Sierra")]
-        [TestCase("Microsoft Edge", "18.0", "Windows 10")]
-        public void DuckDuckGo_TestCase_Demo2(String browser, String version, String os)
+        public void DuckDuckGo_TestCase_Demo1_Safari()
         {
             Thread.Sleep(20);
-            Assert.AreEqual(browser, version);
+	    Assert.AreEqual(1, 2);
         }
         
-        
+ //////////////////////////////////////////////////////////////// 2
+
         [Test]
-        [TestCase("chrome", "72", "Windows 10")]
-        [TestCase("internet explorer", "11.0", "Windows 10")]
-        [TestCase("Safari", "11.0", "macOS High Sierra")]
-        [TestCase("Microsoft Edge", "18.0", "Windows 10")]
-        public void DuckDuckGo_TestCase_Demo3(String browser, String version, String os)
+        public void DuckDuckGo_TestCase_Demo2_Chrome()
         {
             Thread.Sleep(20);
-            Assert.AreEqual(browser, version);
+	    Assert.AreEqual(1, 2);
+        }
+
+        [Test]
+        public void DuckDuckGo_TestCase_Demo2_IE()
+        {
+            Thread.Sleep(20);
+	    Assert.AreEqual(1, 2);
+        }
+
+        [Test]
+        public void DuckDuckGo_TestCase_Demo2_MSEdge()
+        {
+            Thread.Sleep(20);
+	    Assert.AreEqual(1, 1);
         }
         
-        
         [Test]
-        [TestCase("chrome", "72", "Windows 10")]
-        [TestCase("internet explorer", "11.0", "Windows 10")]
-        [TestCase("Safari", "11.0", "macOS High Sierra")]
-        [TestCase("Microsoft Edge", "18.0", "Windows 10")]
-        public void DuckDuckGo_TestCase_Demo4(String browser, String version, String os)
+        public void DuckDuckGo_TestCase_Demo2_Safari()
         {
             Thread.Sleep(20);
-            Assert.AreEqual(browser, version);
+	    Assert.AreEqual(1, 1);
+        }       
+       //////////////////////////////////////////////////////////////// 3
+
+        [Test]
+        public void DuckDuckGo_TestCase_Demo3_Chrome()
+        {
+            Thread.Sleep(20);
+	    Assert.AreEqual(1, 2);
+        }
+
+        [Test]
+        public void DuckDuckGo_TestCase_Demo3_IE()
+        {
+            Thread.Sleep(20);
+	    Assert.AreEqual(1, 1);
+        }
+
+        [Test]
+        public void DuckDuckGo_TestCase_Demo3_MSEdge()
+        {
+            Thread.Sleep(20);
+	    Assert.AreEqual(1, 2);
         }
         
-        
         [Test]
-        [TestCase("chrome", "72", "Windows 10")]
-        [TestCase("internet explorer", "11.0", "Windows 10")]
-        [TestCase("Safari", "11.0", "macOS High Sierra")]
-        [TestCase("Microsoft Edge", "18.0", "Windows 10")]
-        public void DuckDuckGo_TestCase_Demo5(String browser, String version, String os)
+        public void DuckDuckGo_TestCase_Demo3_Safari()
         {
             Thread.Sleep(20);
-            Assert.AreEqual(browser, version);
+	    Assert.AreEqual(1, 1);
+        }
+
+//////////////////////////////////////////////////////////////// 4
+
+        [Test]
+        public void DuckDuckGo_TestCase_Demo4_Chrome()
+        {
+            Thread.Sleep(20);
+	    Assert.AreEqual(1, 2);
+        }
+
+        [Test]
+        public void DuckDuckGo_TestCase_Demo4_IE()
+        {
+            Thread.Sleep(20);
+	    Assert.AreEqual(1, 2);
+        }
+
+        [Test]
+        public void DuckDuckGo_TestCase_Demo4_MSEdge()
+        {
+            Thread.Sleep(20);
+	    Assert.AreEqual(1, 1);
         }
         
-        
         [Test]
-        [TestCase("chrome", "72", "Windows 10")]
-        [TestCase("internet explorer", "11.0", "Windows 10")]
-        [TestCase("Safari", "11.0", "macOS High Sierra")]
-        [TestCase("Microsoft Edge", "18.0", "Windows 10")]
-        public void DuckDuckGo_TestCase_Demo6(String browser, String version, String os)
+        public void DuckDuckGo_TestCase_Demo4_Safari()
         {
             Thread.Sleep(20);
-            Assert.AreEqual(browser, version);
+	    Assert.AreEqual(1, 2);
+        }
+
+//////////////////////////////////////////////////////////////// 5
+
+        [Test]
+        public void DuckDuckGo_TestCase_Demo5_Chrome()
+        {
+            Thread.Sleep(20);
+	    Assert.AreEqual(1, 1);
+        }
+
+        [Test]
+        public void DuckDuckGo_TestCase_Demo5_IE()
+        {
+            Thread.Sleep(20);
+	    Assert.AreEqual(1, 2);
+        }
+
+        [Test]
+        public void DuckDuckGo_TestCase_Demo5_MSEdge()
+        {
+            Thread.Sleep(20);
+	    Assert.AreEqual(1, 2);
         }
         
-        
         [Test]
-        [TestCase("chrome", "72", "Windows 10")]
-        [TestCase("internet explorer", "11.0", "Windows 10")]
-        [TestCase("Safari", "11.0", "macOS High Sierra")]
-        [TestCase("Microsoft Edge", "18.0", "Windows 10")]
-        public void DuckDuckGo_TestCase_Demo7(String browser, String version, String os)
+        public void DuckDuckGo_TestCase_Demo5_Safari()
         {
             Thread.Sleep(20);
-            Assert.AreEqual(browser, version);
+	    Assert.AreEqual(1, 2);
+        }
+     //////////////////////////////////////////////////////////////// 6
+
+        [Test]
+        public void DuckDuckGo_TestCase_Demo6_Chrome()
+        {
+            Thread.Sleep(20);
+	    Assert.AreEqual(1, 2);
+        }
+
+        [Test]
+        public void DuckDuckGo_TestCase_Demo6_IE()
+        {
+            Thread.Sleep(20);
+	    Assert.AreEqual(1, 1);
+        }
+
+        [Test]
+        public void DuckDuckGo_TestCase_Demo6_MSEdge()
+        {
+            Thread.Sleep(20);
+	    Assert.AreEqual(1, 2);
         }
         
-        
         [Test]
-        [TestCase("chrome", "72", "Windows 10")]
-        [TestCase("internet explorer", "11.0", "Windows 10")]
-        [TestCase("Safari", "11.0", "macOS High Sierra")]
-        [TestCase("Microsoft Edge", "18.0", "Windows 10")]
-        public void DuckDuckGo_TestCase_Demo8(String browser, String version, String os)
+        public void DuckDuckGo_TestCase_Demo6_Safari()
         {
             Thread.Sleep(20);
-            Assert.AreEqual(browser, version);
+	    Assert.AreEqual(1, 1);
+        }
+//////////////////////////////////////////////////////////////// 7
+
+        [Test]
+        public void DuckDuckGo_TestCase_Demo7_Chrome()
+        {
+            Thread.Sleep(20);
+	    Assert.AreEqual(1, 1);
+        }
+
+        [Test]
+        public void DuckDuckGo_TestCase_Demo7_IE()
+        {
+            Thread.Sleep(20);
+	    Assert.AreEqual(1, 2);
+        }
+
+        [Test]
+        public void DuckDuckGo_TestCase_Demo7_MSEdge()
+        {
+            Thread.Sleep(20);
+	    Assert.AreEqual(1, 2);
         }
         
-        
         [Test]
-        [TestCase("chrome", "72", "Windows 10")]
-        [TestCase("internet explorer", "11.0", "Windows 10")]
-        [TestCase("Safari", "11.0", "macOS High Sierra")]
-        [TestCase("Microsoft Edge", "18.0", "Windows 10")]
-        public void DuckDuckGo_TestCase_Demo9(String browser, String version, String os)
+        public void DuckDuckGo_TestCase_Demo7_Safari()
         {
             Thread.Sleep(20);
-            Assert.AreEqual(browser, version);
+	    Assert.AreEqual(1, 2);
+        }
+//////////////////////////////////////////////////////////////// 8
+
+        [Test]
+        public void DuckDuckGo_TestCase_Demo8_Chrome()
+        {
+            Thread.Sleep(20);
+	    Assert.AreEqual(1, 2);
+        }
+
+        [Test]
+        public void DuckDuckGo_TestCase_Demo8_IE()
+        {
+            Thread.Sleep(20);
+	    Assert.AreEqual(1, 2);
+        }
+
+        [Test]
+        public void DuckDuckGo_TestCase_Demo8_MSEdge()
+        {
+            Thread.Sleep(20);
+	    Assert.AreEqual(1, 2);
         }
         
-        
         [Test]
-        [TestCase("chrome", "72", "Windows 10")]
-        [TestCase("internet explorer", "11.0", "Windows 10")]
-        [TestCase("Safari", "11.0", "macOS High Sierra")]
-        [TestCase("Microsoft Edge", "18.0", "Windows 10")]
-        public void DuckDuckGo_TestCase_Demo10(String browser, String version, String os)
+        public void DuckDuckGo_TestCase_Demo8_Safari()
         {
             Thread.Sleep(20);
-            Assert.AreEqual(browser, version);
+	    Assert.AreEqual(1, 2);
+        }
+////////////////////////////////////////////////////////////////9
+
+        [Test]
+        public void DuckDuckGo_TestCase_Demo9_Chrome()
+        {
+            Thread.Sleep(20);
+	    Assert.AreEqual(1, 2);
+        }
+
+        [Test]
+        public void DuckDuckGo_TestCase_Demo9_IE()
+        {
+            Thread.Sleep(20);
+	    Assert.AreEqual(1, 2);
+        }
+
+        [Test]
+        public void DuckDuckGo_TestCase_Demo9_MSEdge()
+        {
+            Thread.Sleep(20);
+	    Assert.AreEqual(1, 2);
+        }
+        
+        [Test]
+        public void DuckDuckGo_TestCase_Demo9_Safari()
+        {
+            Thread.Sleep(20);
+	    Assert.AreEqual(1, 2);
+        }
+//////////////////////////////////////////////////////////////// 10
+
+        [Test]
+        public void DuckDuckGo_TestCase_Demo10_Chrome()
+        {
+            Thread.Sleep(20);
+	    Assert.AreEqual(1, 2);
+        }
+
+        [Test]
+        public void DuckDuckGo_TestCase_Demo10_IE()
+        {
+            Thread.Sleep(20);
+	    Assert.AreEqual(1, 1);
+        }
+
+        [Test]
+        public void DuckDuckGo_TestCase_Demo10_MSEdge()
+        {
+            Thread.Sleep(20);
+	    Assert.AreEqual(1, 2);
+        }
+        
+        [Test]
+        public void DuckDuckGo_TestCase_Demo10_Safari()
+        {
+            Thread.Sleep(20);
+	    Assert.AreEqual(1, 1);
         }
     }
 }
