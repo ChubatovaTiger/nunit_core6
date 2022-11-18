@@ -1,4 +1,4 @@
-for (($i = 0); $i -lt 2; $i++)
+for (($i = 0); $i -lt 10000; $i++)
 {
  $m='CheckAssumeCase10_' + $i;
   $n='UnitTests.Services' + $i;
