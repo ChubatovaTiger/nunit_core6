@@ -2,7 +2,7 @@ using System;
 using System.Threading;
 using NUnit.Framework;
 
-namespace Prime.UnitTests.Services_0
+namespace Prime.UnitTests.Services0
 {
 
 //////////////////////////////////////////////////////////////// 1
