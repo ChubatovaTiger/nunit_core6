@@ -4,8 +4,10 @@ using NUnit.Framework;
 
 namespace Prime.UnitTests.Services1
 {
+	    public class CheckAssumeCase10_1
+    {
 
-//////////////////////////////////////////////////////////////// 1
+
 
         [Test]
         public void DuckDuckGo_TestCase_Demo1_Chrome()
@@ -35,7 +37,7 @@ namespace Prime.UnitTests.Services1
 	    Assert.AreEqual(1, 1);
         }
         
- //////////////////////////////////////////////////////////////// 2
+
 
         [Test]
         public void DuckDuckGo_TestCase_Demo2_Chrome()
@@ -80,6 +82,6 @@ namespace Prime.UnitTests.Services1
 	    Assert.AreEqual(1, 1);
         }
 
-      
+	} 
  
 }
