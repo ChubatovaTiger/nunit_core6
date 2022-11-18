@@ -11,7 +11,7 @@ namespace Prime.UnitTests.Services_11
         public void DuckDuckGo_TestCase_Demo1_Chrome()
         {
             Thread.Sleep(10);
-	    Assert.AreEqual(1, 1);
+	    Assert.AreEqual(2, 2);
         }
 
         [Test]
