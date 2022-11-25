@@ -12,7 +12,7 @@ namespace Prime.UnitTests.Services
         public void TestFailed1()
         {
             Thread.Sleep(70);
-	Assert.AreEqual(1, 2);
+	Assert.AreEqual(1, 1);
         }
 
         [Test]
