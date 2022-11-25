@@ -10,7 +10,7 @@ namespace Prime.UnitTests.Services
         [Category("Simple")]
         public void TestAssumeFalse()
         {
-            Thread.Sleep(100);
+            Thread.Sleep(99);
             Assume.That(false);
         }
 
