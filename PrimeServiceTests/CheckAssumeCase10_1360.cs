@@ -11,7 +11,7 @@ namespace Prime.UnitTests.Services
         public void TestAssumeFalse()
         {
             Thread.Sleep(10);
-            Assume.That(false);
+            Assert.AreEqual(1, 1);
         }
 
         [Test]

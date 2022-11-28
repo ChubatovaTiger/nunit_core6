@@ -9,7 +9,7 @@ namespace Prime.UnitTests.Services
         [Category("Simple")]
         public void TestAssumeFalse()
         {
-            Assume.That(false);
+           Assert.AreEqual(1, 1);
         }
 
         [Test]
