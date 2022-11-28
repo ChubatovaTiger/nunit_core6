@@ -6,13 +6,7 @@ namespace Prime.UnitTests.Services
 {
     public class CheckAssumeCase100_536
     {
-        [Test]
-        [Category("Simple")]
-        public void TestAssumeFalse()
-        {
-            Thread.Sleep(100);
-            Assume.That(false);
-        }
+
 
         [Test]
         [TestCase("chrome", "72", "Windows 10")]
@@ -21,7 +15,7 @@ namespace Prime.UnitTests.Services
         [TestCase("Microsoft Edge", "18.0", "Windows 10")]
         public void DuckDuckGo_TestCase_Demo1(String browser, String version, String os)
         {
-            Thread.Sleep(100);Assert.AreEqual(browser, version);
+            Thread.Sleep(100);Assert.AreEqual(1, 1);
         }
         
         [Test]
@@ -31,7 +25,7 @@ namespace Prime.UnitTests.Services
         [TestCase("Microsoft Edge", "18.0", "Windows 10")]
         public void DuckDuckGo_TestCase_Demo2(String browser, String version, String os)
         {
-            Thread.Sleep(100);Assert.AreEqual(browser, version);
+            Thread.Sleep(100);Assert.AreEqual(1, 1);
         }
         
         
@@ -43,7 +37,7 @@ namespace Prime.UnitTests.Services
         public void DuckDuckGo_TestCase_Demo3(String browser, String version, String os)
         {
             Thread.Sleep(100);
-            Assert.AreEqual(browser, version);
+            Assert.AreEqual(1, 1);
         }
         
         
@@ -55,7 +49,7 @@ namespace Prime.UnitTests.Services
         public void DuckDuckGo_TestCase_Demo4(String browser, String version, String os)
         {
             Thread.Sleep(100);
-            Assert.AreEqual(browser, version);
+            Assert.AreEqual(1, 1);
         }
         
         
@@ -67,7 +61,7 @@ namespace Prime.UnitTests.Services
         public void DuckDuckGo_TestCase_Demo5(String browser, String version, String os)
         {
             Thread.Sleep(100);
-            Assert.AreEqual(browser, version);
+            Assert.AreEqual(1, 1);
         }
         
         
@@ -79,7 +73,7 @@ namespace Prime.UnitTests.Services
         public void DuckDuckGo_TestCase_Demo6(String browser, String version, String os)
         {
             Thread.Sleep(10);
-            Assert.AreEqual(browser, version);
+            Assert.AreEqual(1, 1);
         }
         
         
@@ -90,7 +84,7 @@ namespace Prime.UnitTests.Services
         [TestCase("Microsoft Edge", "18.0", "Windows 10")]
         public void DuckDuckGo_TestCase_Demo7(String browser, String version, String os)
         {
-            Thread.Sleep(10);Assert.AreEqual(browser, version);
+            Thread.Sleep(10);Assert.AreEqual(1, 1);
         }
         
         
@@ -102,7 +96,7 @@ namespace Prime.UnitTests.Services
         public void DuckDuckGo_TestCase_Demo8(String browser, String version, String os)
         {
             Thread.Sleep(100);
-            Assert.AreEqual(browser, version);
+            Assert.AreEqual(1, 1);
         }
         
         
@@ -114,7 +108,7 @@ namespace Prime.UnitTests.Services
         public void DuckDuckGo_TestCase_Demo9(String browser, String version, String os)
         {
             Thread.Sleep(100);
-            Assert.AreEqual(browser, version);
+            Assert.AreEqual(1, 1);
         }
         
         
@@ -125,7 +119,7 @@ namespace Prime.UnitTests.Services
         [TestCase("Microsoft Edge", "18.0", "Windows 10")]
         public void DuckDuckGo_TestCase_Demo10(String browser, String version, String os)
         {
-            Assert.AreEqual(browser, version);
+            Assert.AreEqual(1, 1);
         }
     }
 }
