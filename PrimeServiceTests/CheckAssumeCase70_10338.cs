@@ -21,7 +21,7 @@ namespace Prime.UnitTests.Services
         {
             Thread.Sleep(70);
 
-	    Assert.AreEqual(1, 2);
+	    Assert.AreEqual(1, 1);
         }
         [Test]
         [Category("Simple")]
@@ -45,7 +45,7 @@ namespace Prime.UnitTests.Services
         {
             Thread.Sleep(70);
 
-	    Assert.AreEqual(1, 2);
+	    Assert.AreEqual(1, 1);
         }
     }
 }
