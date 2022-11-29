@@ -1,14 +1,15 @@
 using System;
 using System.Threading;
 using NUnit.Framework;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+using NUnit.Framework.Interfaces;
 
 namespace Prime.UnitTests.Services
 {
     public class CheckAssumeCase5
     {
         private string _appUrl;
-public TestContext TestContext { get; set; }
+        public TestContext TestContext { get; set; }
 
         [Test]
         [Category("Simple")]
@@ -27,7 +28,7 @@ public TestContext TestContext { get; set; }
         public void DuckDuckGo_TestCase_Demo1(String browser, String version, String os)
         {
             Thread.Sleep(500);
-            string _appUrl = TestContext.Properties["webAppUrl"];
+            string _appUrl = TestContext.TestParameters["webAppUrl"];
             Assert.AreEqual(_appUrl, version);
         }
         
