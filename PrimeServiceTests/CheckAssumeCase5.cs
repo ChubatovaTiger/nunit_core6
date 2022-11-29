@@ -25,7 +25,7 @@ namespace Prime.UnitTests.Services
         {
             Thread.Sleep(500);
 
-         Assert.AreEqual(TestContext.CurrentContext.Test.Properties.Get("webAppUrl"), 1);
+         Assert.AreEqual(TestContext.Properties.Get("webAppUrl"), 1);
 
 
            
