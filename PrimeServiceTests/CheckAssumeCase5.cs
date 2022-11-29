@@ -28,8 +28,12 @@ namespace Prime.UnitTests.Services
         public void DuckDuckGo_TestCase_Demo1(String browser, String version, String os)
         {
             Thread.Sleep(500);
-            string _appUrl =  TestContext.CurrentContext.Test.Properties["webAppUrl"][0];
-            Assert.AreEqual(_appUrl, version);
+                foreach (var category in TestContext.CurrentContext.Test.Properties["webAppUrl"])
+           {
+         Assert.AreEqual(category, version);
+          }
+
+           
         }
         
         [Test]
