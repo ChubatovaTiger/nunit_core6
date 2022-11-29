@@ -4,7 +4,7 @@
     <!--<TargetPlatform>x64</TargetPlatform>-->
     <MaxCpuCount>2</MaxCpuCount>
     <TreatNoTestsAsError>true</TreatNoTestsAsError>
-    <TestCaseFilter>FullyQualifiedName~CheckAssumeCase</TestCaseFilter>
+    <TestCaseFilter>FullyQualifiedName~CheckAssumeCase5</TestCaseFilter>
   </RunConfiguration>
   
   <TestRunParameters>
