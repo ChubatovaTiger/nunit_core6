@@ -28,7 +28,7 @@ namespace Prime.UnitTests.Services
         public void DuckDuckGo_TestCase_Demo1(String browser, String version, String os)
         {
             Thread.Sleep(500);
-            string _appUrl =  TestContext.CurrentContext.Test.Properties["webAppUrl"];
+            string _appUrl =  TestContext.CurrentContext.Test.Properties["webAppUrl"][0];
             Assert.AreEqual(_appUrl, version);
         }
         
