@@ -6,11 +6,15 @@ namespace Prime.UnitTests.Services
 {
     public class CheckAssumeCase5
     {
+        private string _appUrl;
+public TestContext TestContext { get; set; }
+
         [Test]
         [Category("Simple")]
         public void TestAssumeFalse()
         {
             Thread.Sleep(50);
+            
             Assume.That(false);
         }
 
@@ -21,7 +25,9 @@ namespace Prime.UnitTests.Services
         [TestCase("Microsoft Edge", "18.0", "Windows 10")]
         public void DuckDuckGo_TestCase_Demo1(String browser, String version, String os)
         {
-            Thread.Sleep(500);Assert.AreEqual(browser, version);
+            Thread.Sleep(500);
+            string _appUrl = TestContext.Properties["webAppUrl"];
+            Assert.AreEqual(_appUrl, version);
         }
         
         [Test]
