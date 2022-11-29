@@ -8,7 +8,7 @@ namespace Prime.UnitTests.Services
 {
     public class CheckAssumeCase5
     {
-        private string _appUrl;
+
         //public TestContext TestContext { get; set; }
 
         [Test]
@@ -25,7 +25,7 @@ namespace Prime.UnitTests.Services
         {
             Thread.Sleep(500);
 
-         Assert.AreEqual(TestContext.CurrentContext.Test.Properties.Get("webAppUrl"), 1);
+         Assert.AreEqual(TestContext.Parameters["webAppUrl"], 1);
 
 
            
