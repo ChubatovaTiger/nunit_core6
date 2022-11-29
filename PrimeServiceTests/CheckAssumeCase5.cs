@@ -21,9 +21,7 @@ namespace Prime.UnitTests.Services
         }
 
         [Test]
-        [TestCase("chrome", "72", "Windows 10")]
-
-        public void DuckDuckGo_TestCase_Demo1(String browser, String version, String os)
+        public void DuckDuckGo_TestCase_Demo1()
         {
             Thread.Sleep(500);
 
