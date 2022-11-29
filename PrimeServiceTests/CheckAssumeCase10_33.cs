@@ -2,7 +2,7 @@ using System;
 using System.Threading;
 using NUnit.Framework;
 
-namespace Prime.UnitTests.Services
+namespace Prime.UnitTests.Services33
 {
     public class CheckAssumeCase10_33
     {
